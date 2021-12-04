@@ -4,15 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInActivity">
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="568dp"
-        app:srcCompat="@drawable/bacground_for_start"
-        tools:ignore="MissingConstraints"/>
+    tools:context=".SignInActivity"
+    android:background="@drawable/bacground_for_start">
 
     <LinearLayout
         android:id="@+id/layout_main"
