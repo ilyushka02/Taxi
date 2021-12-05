@@ -25,12 +25,17 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.button_sigIn:
-//                openMaps();
+                openMaps();
                 break;
             case R.id.textCreateNewAccount:
                 openSignup();
                 break;
         }
+    }
+
+    private void openMaps() {
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
     }
 
     private void openSignup() {
